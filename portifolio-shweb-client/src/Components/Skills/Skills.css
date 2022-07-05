@@ -1,0 +1,14 @@
+.progress-bar {
+  background-color: #00af91 !important;
+}
+.progress {
+  margin-bottom: 20px;
+}
+.progress-bar-striped {
+  background-size: 8rem 8rem;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

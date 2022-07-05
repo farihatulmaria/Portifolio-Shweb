@@ -1,0 +1,23 @@
+header {
+  height: 100px;
+  position: relative;
+}
+nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 9999;
+}
+nav.active {
+  box-shadow: #00000066 1px 1px 5px;
+}
+.nav-link {
+  padding: 20px !important;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border: 0;
+}
