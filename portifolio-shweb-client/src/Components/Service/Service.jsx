@@ -11,14 +11,14 @@ const Service = () => {
     }, [])
     
     return (
-        <section id='services'>
+        <section id='services' className='bg-gray'>
             <Container>
                 <Col>
                     <div className="title">
-                            <h2>MY SERVICES</h2>
+                        <h2>MY SERVICES</h2>
                     </div>
                 </Col>
-                <Row lg={3} md={2} xs={1} className='my-5'>
+                <Row lg={3} md={2} xs={1} className='my-5 g-4'>
                     {
                         services.map(service => <SingleService service={service}/>)
                     }

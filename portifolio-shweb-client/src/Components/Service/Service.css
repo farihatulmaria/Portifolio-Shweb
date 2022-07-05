@@ -1,0 +1,14 @@
+.icon-content i {
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: inline-block;
+  font-size: 30px;
+}
+.card {
+  padding: 30px 30px 20px;
+}
+#services .card:hover .icon-content i {
+  background: #00af91;
+  color: #fff;
+}

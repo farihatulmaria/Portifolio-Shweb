@@ -10,7 +10,7 @@ const Welcome = () => {
                 <Col>
                     <div className="banner-content">
                         <p className='h3'>Welcome to my world</p>
-                        <h1 className='fw-bold'>Hi, I’m Sajjad</h1>
+                        <h1 className='fw-bold'>Hi, I'm Sajjad</h1>
                         <p>a professional web developer with more than five years of experience. I am providing Website Development & Designing, E-commerce through WordPress, Prestashop, Shopify. I am a hard worker and communicative.</p>
                         
                         <div className="banner-btn mt-4">

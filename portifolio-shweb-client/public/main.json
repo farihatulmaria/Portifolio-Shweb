@@ -6,6 +6,54 @@
         "title": "Web Design",
         "icon": "computer",
         "desc": "Goal-oriented, custom designed websites targeted on converting users into new clients or customers satisfaction."
+      },
+      {
+        "id": 2,
+        "title": "Web Development",
+        "icon": "dashboard-web",
+        "desc": "Beyond basic sites, we can custom develop unique front-end interactions or complex database applications."
+      },
+      {
+        "id": 3,
+        "title": "WordPress",
+        "icon": "brand-wordpress",
+        "desc": "Goal-oriented, custom designed websites targeted on converting users into new clients or customers satisfaction."
+      },
+      {
+        "id": 4,
+        "title": "Prestashop",
+        "icon": "responsive",
+        "desc": "I am specializes in customizing open source CMS like Prestashop.I love to work with Prestashop"
+      },
+      {
+        "id": 5,
+        "title": "Speed Optimization",
+        "icon": "dashboard-web",
+        "desc": "Fast site load speed is also an important factor in securing high rank on Google SERP and I specialize Optimization"
+      },
+      {
+        "id": 6,
+        "title": "Server Configuration",
+        "icon": "brand-wordpress",
+        "desc": "Vps or shard server configuration service.I love to work Digital Ocean Amazon ECS2 server configuration."
+      },
+      {
+        "id": 7,
+        "title": "Laravel",
+        "icon": "responsive",
+        "desc": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell. I am a learner of Laravel and I love to work with it."
+      },
+      {
+        "id": 8,
+        "title": "Responsive Web Design",
+        "icon": "dashboard-web",
+        "desc": "The layout is the foundation of your website. It guides the user through the sections and tells them what is most important."
+      },
+      {
+        "id": 9,
+        "title": "WordPress Security",
+        "icon": "brand-wordpress",
+        "desc": "Don't wait until your self-hosted WordPress site is hacked to start thinking about securing. Act now, harden site Security and beat the malicious hackers!"
       }
     ]
   }

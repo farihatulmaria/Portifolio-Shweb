@@ -6,10 +6,8 @@ const About = () => {
     return (
         <section className='bg-gray' id='about'>
             <Container>
-                <Col md={12}className="title my-5">
-                        <h2>
-                            About Me
-                        </h2>
+                <Col md={12} className="title my-5">
+                     <h2>About Me</h2>
                 </Col>
                 <Row className='g-5' lg={2} md={1} xs={1}>
                     <Col>
