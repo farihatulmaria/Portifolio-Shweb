@@ -1,0 +1,12 @@
+[
+  {
+    "Services": [
+      {
+        "id": 1,
+        "title": "Web Design",
+        "icon": "computer",
+        "desc": "Goal-oriented, custom designed websites targeted on converting users into new clients or customers satisfaction."
+      }
+    ]
+  }
+]
