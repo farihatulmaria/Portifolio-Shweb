@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Icofont from 'react-icofont';
+import PrimaryButton from '../PrimaryButton/PrimaryButton';
 import './Welcome.css';
 const Welcome = () => {
     return (
@@ -14,16 +14,8 @@ const Welcome = () => {
                         <p>a professional web developer with more than five years of experience. I am providing Website Development & Designing, E-commerce through WordPress, Prestashop, Shopify. I am a hard worker and communicative.</p>
                         
                         <div className="banner-btn mt-4">
-                            <button>
-                                <span>
-                                    <Icofont icon="business-man-alt-2"/>  Hire Me
-                                </span>
-                            </button>
-                            <button className='ms-2'>
-                                <span>
-                                    <Icofont icon="file-alt"/>  Portfolio
-                                </span>
-                            </button>
+                            <PrimaryButton name='Hire Me' icon={'business-man-alt-2'}/>
+                            <PrimaryButton buttonClass='ms-2' name='Protifolio' icon={'file-alt'}/>
                         </div>
                     </div>
                 </Col>

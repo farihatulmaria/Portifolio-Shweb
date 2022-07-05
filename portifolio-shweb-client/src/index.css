@@ -155,3 +155,10 @@ button:hover::after {
 .social-icons i:hover::after {
   transform: scale(2);
 }
+
+#call-to-action {
+  background: url("https://i.postimg.cc/yx2qwNkm/hire-me-banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

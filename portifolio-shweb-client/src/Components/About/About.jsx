@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Icofont from 'react-icofont';
+import PrimaryButton from '../PrimaryButton/PrimaryButton';
 import './About.css';
 const About = () => {
     return (
@@ -13,12 +14,7 @@ const About = () => {
                     <Col>
                         <div className="about-me mb-3">
                             <p>Hello! My home town is Mymenshing, Bangladesh. Recently I have completed my Bsc. Honours in computer science. I started web design and development after 2010 and have enjoyed working as a freelancer. I am skilled in HTML, CSS,Java script,jQuery, PHP-MySQL, WordPress , WordPress theme development, Plugin development, Prestashop. I try to learn a new skill every day and I am so passionate about my work that I won't give up until I am fully satisfied with the work. Now I am currently available for freelance work. Lots of professional website design companies can provide 'cool' web designs and website design services - but for a high price.</p>
-
-                            <button>
-                                <span>
-                                    <Icofont icon="business-man-alt-2"/>  Hire Me
-                                </span>
-                            </button>
+                            <PrimaryButton name='Hire Me' icon={'business-man-alt-2'}/>
                         </div>
                     </Col>
                     <Col>
