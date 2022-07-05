@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import PrimaryButton from '../PrimaryButton/PrimaryButton';
+import PrimaryButton from '../PrimaryButton';
 import './Welcome.css';
 const Welcome = () => {
     return (
@@ -14,13 +14,13 @@ const Welcome = () => {
                         <p>a professional web developer with more than five years of experience. I am providing Website Development & Designing, E-commerce through WordPress, Prestashop, Shopify. I am a hard worker and communicative.</p>
                         
                         <div className="banner-btn mt-4">
-                            <PrimaryButton name='Hire Me' icon={'business-man-alt-2'}/>
+                            <PrimaryButton name='Hire Me' icon={'business-man-alt-2'} link={'#contact'}/>
                             <PrimaryButton buttonClass='ms-2' name='Protifolio' icon={'file-alt'}/>
                         </div>
                     </div>
                 </Col>
                 <Col>
-                    <img className='img-fluid my-5' src="https://cdn-cnofg.nitrocdn.com/aClziBUYFeXgfCgSXponaMfcfnHvlxby/assets/static/optimized/rev-1da91c6/wp-content/uploads/2021/10/Programming.jpg" alt="shweb" />
+                    <img className='img-fluid my-5' src="https://i.postimg.cc/W4jtXC54/Programming.jpg" alt="shweb" />
                 </Col>
             </Row>
            </Container>

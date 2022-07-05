@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import SingleService from '../SingleService/SingleService';
+import Title from '../Title';
 import './Service.css';
 const Service = () => {
     const [services, setServices] = useState([]);
@@ -14,9 +15,7 @@ const Service = () => {
         <section id='services' className='bg-gray'>
             <Container>
                 <Col>
-                    <div className="title">
-                        <h2>MY SERVICES</h2>
-                    </div>
+                    <Title name={'MY SERVICES'}/>
                 </Col>
                 <Row lg={3} md={2} xs={1} className='my-5 g-4'>
                     {

@@ -4,7 +4,7 @@ import './MenuBar.css';
 const MenuBar = () => {
     return (
         <>
-            <Nav className="ms-auto text-end">
+            <Nav className="ms-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#skill">Skill</Nav.Link>

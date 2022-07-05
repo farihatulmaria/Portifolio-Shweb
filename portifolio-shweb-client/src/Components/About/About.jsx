@@ -1,14 +1,15 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Icofont from 'react-icofont';
-import PrimaryButton from '../PrimaryButton/PrimaryButton';
+import PrimaryButton from '../PrimaryButton';
+import Title from '../Title';
 import './About.css';
 const About = () => {
     return (
         <section className='bg-gray' id='about'>
             <Container>
-                <Col md={12} className="title my-5">
-                     <h2>About Me</h2>
+                <Col md={12} className='my-5'>
+                    <Title name={'ABOUT ME'}/>
                 </Col>
                 <Row className='g-5' lg={2} md={1} xs={1}>
                     <Col>

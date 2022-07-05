@@ -1,14 +1,13 @@
 import React from 'react';
 import { Col, Container, ProgressBar, Row } from 'react-bootstrap';
+import Title from '../Title';
 import './Skills.css';
 const Skills = () => {
     return (
         <section id='skill'>
             <Container>
-                <Col>
-                    <div className="title my-5">
-                        <h2>MY SKILL</h2>
-                    </div>
+                <Col className='my-5'>
+                    <Title name={'MY SKILLS'}/>
                 </Col>
                 <Row xs={1} md={1} lg={2}>
                     <Col>                        

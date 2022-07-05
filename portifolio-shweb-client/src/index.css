@@ -21,7 +21,7 @@ body {
   color: var(--sub-main-color);
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 section,
 footer {
@@ -93,8 +93,12 @@ button:hover::after {
   color: var(--main-color) !important;
   padding: 15px 0;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
   color: var(--main-color) !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 .title h2 {
   text-transform: uppercase;
@@ -107,7 +111,7 @@ button:hover::after {
   bottom: -15px;
   left: 30px;
   height: 5px;
-  width: 10%;
+  width: 20%;
   border-radius: 20px;
   background-image: linear-gradient(to right, #01d2af 0%, #00af91 100%);
   background-repeat: repeat-x;
