@@ -9,6 +9,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 :root {
   --main-color: #00af91;
@@ -58,7 +59,8 @@ button span {
   color: var(--main-color);
 }
 button:hover span,
-button:hover i {
+button:hover i,
+.scrollToTopBtn span i {
   color: var(--sub-main-color);
 }
 button:before,
@@ -165,4 +167,17 @@ button:hover::after {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.scrollToTopBtn {
+  background: #00af91;
+  padding: 8px;
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 23px;
+  transform: rotate(-45deg);
+}
+.scrollToTopBtn:hover {
+  transform: rotate(360deg);
 }
