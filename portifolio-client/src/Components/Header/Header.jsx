@@ -23,7 +23,7 @@ const Header = () => {
             <Navbar expand="lg" className={navbar ? 'active' : ''}>
                 <Container>
                     <Navbar.Brand href="#home">
-                        <h1 className='fw-bold'>SH WEB</h1>
+                        <img src={"https://cdn-cnofg.nitrocdn.com/aClziBUYFeXgfCgSXponaMfcfnHvlxby/assets/static/optimized/rev-60b457b/wp-content/uploads/2022/07/sajjad-logo.png"} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -35,7 +35,6 @@ const Header = () => {
     );
 };
 /* 
-
 
 
 

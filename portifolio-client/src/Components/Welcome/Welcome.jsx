@@ -20,7 +20,7 @@ const Welcome = () => {
                     </div>
                 </Col>
                 <Col>
-                    <img className='img-fluid my-5' src="https://i.postimg.cc/W4jtXC54/Programming.jpg" alt="shweb" />
+                    <img className='img-fluid my-5' src="https://cdn-cnofg.nitrocdn.com/aClziBUYFeXgfCgSXponaMfcfnHvlxby/assets/static/optimized/rev-60b457b/wp-content/uploads/2022/07/wordpress.png" alt="shweb" />
                 </Col>
             </Row>
            </Container>

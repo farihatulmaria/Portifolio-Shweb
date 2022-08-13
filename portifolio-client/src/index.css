@@ -99,6 +99,7 @@ button:hover::after {
 .nav-link.active {
   color: var(--main-color) !important;
 }
+
 .navbar-toggler:focus {
   box-shadow: none;
 }

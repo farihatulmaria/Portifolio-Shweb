@@ -8,7 +8,7 @@ const Footer = () => {
             <Container>
                 <Col className='text-center'>
                     <div className="footer-logo">
-                        <img width={200} height={200} src="https://cdn-cnofg.nitrocdn.com/aClziBUYFeXgfCgSXponaMfcfnHvlxby/assets/static/optimized/rev-1da91c6/wp-content/uploads/2021/10/logo-circle.png" alt="" />
+                        <img src="https://cdn-cnofg.nitrocdn.com/aClziBUYFeXgfCgSXponaMfcfnHvlxby/assets/static/optimized/rev-60b457b/wp-content/uploads/2022/07/sajjad-logo.png" alt="" />
                     </div>
                     <div className="social-icons my-5">
                             <Icofont icon='facebook'/>
